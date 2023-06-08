@@ -42,7 +42,7 @@ namespace randomNumber
                 attempts++;
             }
 
-            Console.WriteLine("You have used all your attempts. The correct number was: " + randomNumber);
+            Console.WriteLine($"You have used all your attempts. The correct number was: {randomNumber}");
             Console.WriteLine("Game over!");
             Console.ReadLine();
         }
